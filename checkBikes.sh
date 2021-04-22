@@ -46,3 +46,28 @@ echo "$result"|egrep -i -e 'stock|storeName|quantity'
 echo "- Rockrider ST 540 L size colore nero"
 result=$($GETSCRIPT 2379151 8500757)
 echo "$result"|egrep -i -e 'stock|storeName|quantity'
+
+echo "- Riverside 500 size M colore antracite/rosso"
+result=$($GETSCRIPT 2392402 8405210)
+echo "$result"|egrep -i -e 'stock|storeName|quantity'
+
+echo "- Riverside 500 size M colore rosso"
+result=$($GETSCRIPT 2977696 8577822)
+echo "$result"|egrep -i -e 'stock|storeName|quantity'
+
+echo "- Riverside 500 size M colore grigioblu"
+result=$($GETSCRIPT 4010121 8582570)
+echo "$result"|egrep -i -e 'stock|storeName|quantity'
+
+echo "- Riverside 500 size L colore antracite/rosso"
+result=$($GETSCRIPT 2391857 8405210)
+echo "$result"|egrep -i -e 'stock|storeName|quantity'
+
+echo "- Riverside 500 size L colore rosso"
+result=$($GETSCRIPT 2977695 8577822)
+echo "$result"|egrep -i -e 'stock|storeName|quantity'
+
+echo "- Riverside 500 size L colore grigioblu"
+result=$($GETSCRIPT 4010120 8582570)
+echo "$result"|egrep -i -e 'stock|storeName|quantity'
+
